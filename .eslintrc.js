@@ -9,6 +9,13 @@ module.exports = {
         "define": false,
         "Float32Array": false
     },
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
+    },
     "rules": {
         "indent": [
             "error",
